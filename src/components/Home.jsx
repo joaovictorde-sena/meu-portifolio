@@ -1,10 +1,8 @@
-import React from 'react'
+import "./Home.css"
 import {
   FaLinkedinIn,
   FaWhatsapp,
-  FaGithub,
-  FaInstagram
-} from "react-icons/fa";
+  FaGithub} from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -39,7 +37,7 @@ const Home = () => {
                 <li>
                     <a 
                     href='https://github.com/joaovictorde-sena'
-                    title='Ir para o GitHub'>
+                    title='Ir para o GitHub' target='blank'>
                     <FaGithub />
                     </a>
                 </li>
@@ -48,11 +46,11 @@ const Home = () => {
 
         <div className='container-foto'>
           <div className='foto sombra-interna'>
-            <img src="/images/foto-perfil.png" alt="foto do portfólio do João" />
+            <img src="src/images/foto-perfil.png" alt="foto do portfólio do João" />
           </div>
         </div>
     </section>
   )
 }
 
-export default Home
+export default Home;

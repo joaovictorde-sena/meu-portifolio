@@ -1,0 +1,57 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.cabecalho .logo {
+  width: 85px;
+  height: 85px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  text-decoration: underline;
+  text-align: center;
+  line-height: 55px;
+  font-family: "Raleway", sans-serif;
+  transition: 0.2s;
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+}
+
+.cabecalho .logo::after {
+    content: "JV";
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+}
+
+.cabecalho a:hover .logo {
+  color: #9443d8;
+  border: 2px solid #9443d8;
+}
+
+.menu li a {
+  font-size: 24px;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  transition: 0.4s;
+  color: #fff;
+}
+
+.menu li a:hover {
+  background-color: #9443d8;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}

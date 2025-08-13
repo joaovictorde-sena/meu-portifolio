@@ -1,21 +1,21 @@
-import React from 'react'
+import "./Header.css";
 
 const Header = () => {
   return (
-    <header>
-        <a href="#">
-            <h1 className='logo'>JV</h1>
-        </a>
+    <header className='cabecalho'>
+      <a href='#'>
+        <h1 className='logo'></h1>
+      </a>
 
-        <nav className='menu'>
-            <ul>
-                <li>
-                   <a href="#projetos">Meus projetos</a> 
-                </li>
-            </ul>
-        </nav>
+      <nav className='menu'>
+        <ul>
+          <li>
+            <a href="#projects">Meus projetos</a> 
+          </li>
+        </ul>
+      </nav>
     </header>
   )
 }
 
-export default Header
+export default Header;
