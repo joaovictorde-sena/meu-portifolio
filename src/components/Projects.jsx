@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 
+import imgFylo from "../images/projeto-fylo-landing-page.png";
+import imgCineverse from "../images/projeto-cineverse.png";
+import imgGeoIp from "../images/projeto-geoip.png";
+import imgThynk from "../images/projeto-thynk-travel.png";
 import "./Projects.css"
 
 
@@ -7,28 +11,28 @@ const sampleProjects = [
   {
     id: 1,
     title: "Fylo Landing Page",
-    image: "src/images/projeto-fylo-landing-page.png",
+    image: imgFylo,
     description: "Landing page responsiva criada para apresentar serviço de armazenamento em nuvem.",
     github: "https://github.com/joaovictorde-sena/fylo-landing-page",
   },
   {
     id: 2,
     title: "Cineverse",
-    image: "src/images/projeto-cineverse.png",
+    image: imgCineverse,
     description: "Aplicação web desenvolvida com React e Vite para exibição de filmes e séries",
     github: "https://github.com/joaovictorde-sena/CineVerse",
   },
   {
     id: 3,
     title: "GeoIpTracker",
-    image: "src/images/projeto-geoip.png",
+    image: imgGeoIp,
     description: "Aplicação web que permite rastrear informações de localização de endereços IP em tempo real.",
     github: "https://github.com/joaovictorde-sena/GeoIP-Tracker"
   },
   {
     id: 4,
     title: "Thynk Travel",
-    image: "src/images/projeto-thynk-travel.png",
+    image: imgThynk,
     description: "Landing page para agência de turismo, com busca interativa de pacotes e apresentação de destinos populares",
     github: "https://github.com/joaovictorde-sena/thynk-travel"
   },
