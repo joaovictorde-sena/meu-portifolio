@@ -1,4 +1,5 @@
 import "./Home.css"
+import fotoPerfil from "../images/foto-perfil.png"
 import {
   FaLinkedinIn,
   FaWhatsapp,
@@ -46,7 +47,7 @@ const Home = () => {
 
         <div className='container-foto'>
           <div className='foto sombra-interna'>
-            <img src="src/images/foto-perfil.png" alt="foto do portfólio do João" />
+            <img src={fotoPerfil} alt="foto do portfólio do João" />
           </div>
         </div>
     </section>
