@@ -67,7 +67,7 @@ const Projects = () => {
       setTimeout(() => {
         setShowAll(true);
         setLoading(false);
-      }, 800); 
+      }, 600); 
     }}
   >
     {loading ? "Carregando..." : "Mostrar mais"}

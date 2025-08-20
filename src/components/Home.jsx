@@ -10,12 +10,10 @@ const Home = () => {
     <section className='home'>
         <div className='informacoes'>
             <h1>Olá! Sou João Victor</h1>
-            <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
+            <p>Sou graduando em Licenciatura da Computação pela Universidade Federal Rural de Pernambuco</p>
             <p>
-            Estou sempre me desafiando com novos projetos e buscando feedback na
-            comunidade de programação, além de compartilhar meus conhecimentos. 😁
+            Estou em busca de novas oportunidades em Desenvolvimento Web, com o objetivo de aplicar meus conhecimentos em soluções práticas, aprender continuamente e agregar valor por meio do trabalho em equipe e da adoção de boas práticas do mercado.
             </p>
-            <p>Ah, também sou fã de jogos, filmes, séries e futebol</p>
 
             <ul className='redes-sociais'>
                 <li>
